@@ -41,8 +41,8 @@ Shellmvn clean installmvn exec:javaShow more lines
 Acesse o banco H2 via DBeaver para visualizar os dados persistidos.
 
 🗄️ Configuração do Banco de Dados H2
-Este projeto utiliza o banco de dados H2, configurado para rodar localmente. Certifique-se de que o arquivo application.properties contenha as seguintes configurações:
-Shellproperties isn’t fully supported. Syntax highlighting is based on Shell.# Data Basedb.url=jdbc:h2:~/catalogolivrodbdb.user=userdb.password=user_senhaShow more lines
+Este projeto utiliza o banco de dados H2, configurado para rodar localmente. 
+Certifique-se de que o arquivo application.properties contenha as seguintes configurações
 
 💡 Você pode acessar o banco via DBeaver utilizando a URL acima.
 
