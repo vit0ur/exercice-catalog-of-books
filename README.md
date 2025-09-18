@@ -24,7 +24,8 @@ Sem uso de frameworks como Spring, para foco total na estrutura e princípios da
 ## 🚀 Como Executar
 
 Clone o repositório:
-Shellgit clone https://github.com/vit0ur/exercice-catalog-of-books.gitcd exercice-catalog-of-booksShow
+Shellgit clone https://github.com/vit0ur/exercice-catalog-of-books.git
+cd exercice-catalog-of-booksShow
 Acesse o banco H2 via DBeaver para visualizar os dados persistidos.
 
 🗄️ Configuração do Banco de Dados H2
