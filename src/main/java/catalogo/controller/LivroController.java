@@ -8,10 +8,18 @@ import java.util.Scanner;
 public class LivroController {
 
     private final LivroService service;
-    Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+
+    // Construtor para testes
+    public LivroController(LivroService service, Scanner scanner) throws Exception {
+        this.service = service;
+        this.scanner = scanner;
+        service.criarTabela();
+    }
 
     public LivroController() throws Exception {
         this.service = new LivroService();
+        this.scanner = new Scanner(System.in);
         service.criarTabela();
     }
 

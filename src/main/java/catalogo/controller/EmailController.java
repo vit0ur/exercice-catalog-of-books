@@ -7,6 +7,11 @@ public class EmailController {
 
     private final EmailService emailService;
 
+    // Construtor para testes
+    public EmailController(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
     public EmailController() throws IOException {
         this.emailService = new EmailService();
     }
