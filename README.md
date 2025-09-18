@@ -13,15 +13,6 @@ Define os contratos de entrada e saída da aplicação. São interfaces que cone
 Adaptadores (Implementações)
 Implementam as portas e fazem a ponte entre o domínio e os sistemas externos, como banco de dados, APIs, ou interfaces de usuário.
 
-## 📁 Estrutura do Projeto
-src/
-├── application/         # Casos de uso e lógica de negócio
-├── domain/              # Entidades e interfaces do domínio
-├── adapters/
-│   ├── in/              # Adaptadores de entrada (ex: controllers)
-│   └── out/             # Adaptadores de saída (ex: repositórios, serviços externos)
-└── config/              # Configurações e injeção de dependências
-
 ## ⚙️ Tecnologias Utilizadas
 
 Java 17
@@ -33,11 +24,7 @@ Sem uso de frameworks como Spring, para foco total na estrutura e princípios da
 ## 🚀 Como Executar
 
 Clone o repositório:
-Shellgit clone https://github.com/vit0ur/exercice-catalog-of-books.gitcd exercice-catalog-of-booksShow more lines
-
-Compile e execute com Maven:
-Shellmvn clean installmvn exec:javaShow more lines
-
+Shellgit clone https://github.com/vit0ur/exercice-catalog-of-books.gitcd exercice-catalog-of-booksShow
 Acesse o banco H2 via DBeaver para visualizar os dados persistidos.
 
 🗄️ Configuração do Banco de Dados H2
